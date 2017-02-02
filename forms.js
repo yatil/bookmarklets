@@ -96,7 +96,7 @@ javascript: (function() {
   				}
   		});
           $("legend").each(function() {
-  				$(this).attr('style','outline:green 2px solid;padding:2px;');
+  				$(this).attr('style','outline:green 2px solid;padding:2px;display:block !important;');
                  	$(this).prepend("<span class=\"openSpan\" style=\"padding:1px;color:black;font-weight:bold;font-family:sans-serif;font-size:small;background-color:yellow;z-index:2147483647;speak:literal-punctuation;\">&lt;legend&gt;👍</span>");
                   $(this).append("<span class=\"closeSpan\" style=\"color:black;font-weight:bold;font-family:sans-serif;font-size:small;background-color:yellow;speak:literal-punctuation;\">&lt;/legend&gt;</span>");
           });
